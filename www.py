@@ -1,4 +1,5 @@
 from application import app
+from web.interceptor.AuthInterceptor import *
 from web.controllers.index import route_index
 from web.controllers.user.User import route_user
 from web.controllers.static import route_static
